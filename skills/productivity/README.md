@@ -18,3 +18,4 @@ Model- or user-reachable (rich trigger phrasing so the model can reach for them)
 
 - **[grilling](./grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved.
 - **[writing-for-agents](./writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+- **[asd-ste100](./asd-ste100/SKILL.md)**: Rewrite dense or ambiguous English into Simplified Technical English (ASD-STE100) for readers with no human in the loop: tool descriptions, error messages, inter-agent instructions, system prompts.

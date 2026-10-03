@@ -214,6 +214,12 @@ Skills I use daily for code work.
 - **[code-review](./skills/engineering/code-review/SKILL.md)**: Two-axis review of the diff since a fixed point: **Standards** (does it follow the repo's coding standards, plus a Fowler smell baseline?) and **Spec** (does it faithfully implement the originating issue/spec?), run as parallel sub-agents so neither pollutes the other.
 - **[pr](./skills/engineering/pr/SKILL.md)**: The shape a pull request body should take: a summary as the smallest visual that makes the change clear, before/after evidence that it works, and a merge-danger call (one-way or two-way door, plus blast radius).
 - **[wizard](./skills/engineering/wizard/SKILL.md)**: Generate an interactive bash wizard that walks a human through steps only they can perform: provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover.
+- **[ponytail](./skills/engineering/ponytail/SKILL.md)**: Lazy/YAGNI-first coding discipline: question whether the task needs to exist at all, then stdlib before custom code, native platform features before dependencies, one line before fifty.
+- **[ponytail-review](./skills/engineering/ponytail-review/SKILL.md)**: Review a diff for over-engineering only: what to delete, what stdlib/native equivalent replaces it.
+- **[ponytail-audit](./skills/engineering/ponytail-audit/SKILL.md)**: Same over-engineering hunt as `ponytail-review`, scanned across the whole repo instead of a diff.
+- **[ponytail-debt](./skills/engineering/ponytail-debt/SKILL.md)**: Harvest every `ponytail:` shortcut comment in the codebase into a tracked debt ledger.
+- **[ponytail-gain](./skills/engineering/ponytail-gain/SKILL.md)**: Show ponytail's published benchmark impact (code, cost, speed) as a one-shot scoreboard.
+- **[ponytail-help](./skills/engineering/ponytail-help/SKILL.md)**: Quick-reference card for the ponytail modes and skills.
 
 ### Productivity
 
@@ -231,3 +237,4 @@ General workflow tools, not code-specific.
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+- **[asd-ste100](./skills/productivity/asd-ste100/SKILL.md)**: Rewrite dense or ambiguous English into Simplified Technical English (ASD-STE100) for readers with no human in the loop: tool descriptions, error messages, inter-agent instructions, system prompts.
