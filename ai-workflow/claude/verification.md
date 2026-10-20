@@ -95,4 +95,4 @@ Any enabled plugin hook on `agent.spawn` that sets `model` overrides frontmatter
 | Orchestrator, trigger phrase | Stays on session model `claude-opus-5-5` (2 runs). Known limit. |
 | Routing dry runs | Step 2 none; step 4 planner; step 6 diagnoser; step 9 git-maintainer. |
 | Override audit | No env overrides, no ultracode, no managed settings, no org model limits. Legacy top-level `effortLevel: xhigh` kept. |
-| PR assignee | First real PR: this documentation, see the commit history of this folder. |
+| PR assignee | Verified: `git-maintainer` opened csvk20/skills#1 (this documentation) with `--assignee @me`, and `gh pr view --json assignees` returned `csvk20`. |
