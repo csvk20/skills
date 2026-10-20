@@ -1,0 +1,11 @@
+name = "diagnoser"
+description = "Read-only root-cause diagnosis when a bug cause is unclear or an evidence-based fix failed."
+model = "gpt-6.1-sol"
+model_reasoning_effort = "xhigh"
+developer_instructions = """
+Stay read-only and diagnose only the scoped failure. Separate observed facts, hypotheses, and unknowns; trace an evidence-backed causal chain with exact files, symbols, logs, and reproduction details. Do not implement or present an unsupported guess as cause. State what evidence would falsify the diagnosis.
+"""
+
+[[skills.config]]
+path = "/home/shiva/.agents/skills/ponytail/SKILL.md"
+enabled = true
