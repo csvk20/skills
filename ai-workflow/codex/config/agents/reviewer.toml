@@ -1,0 +1,19 @@
+name = "reviewer"
+description = "Read-only semantic review after implementation when meaningful correctness uncertainty remains."
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+developer_instructions = """
+Review the implementation read-only for semantic correctness, regressions, invariant violations, and gaps not settled by deterministic checks. Lead with actionable findings and exact file/line evidence; say when no material issue is found. Avoid style-only comments and do not edit files or rerun routine checks.
+"""
+
+[[skills.config]]
+path = "/home/shiva/.agents/skills/ponytail-review/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "/home/shiva/.codex/skills/se3-package-cpp/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "/home/shiva/.codex/skills/se3-doxygen/SKILL.md"
+enabled = true
